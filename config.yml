@@ -1,0 +1,13 @@
+mongodb:
+  # Enter the name of your collection to where your assets live
+  collection_name: "asset_collection"
+
+redis:
+  # Enter the url to your redis instance as a string here
+  url: "redis_cache_container"
+  # Enter the port number your redis server uses
+  port: 6379
+
+logger:
+  name: MongoDB
+  file: database_log.log
