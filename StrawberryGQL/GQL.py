@@ -128,6 +128,7 @@ class Mutation:
 
     @strawberry.mutation
     def remove_asset_by_id(self, info, id: str) -> bool:
+        
         result = mongoDB.asset_collection.delete_one({"_id": id})
 
         # Invalidate the cache in Redis
@@ -139,6 +140,7 @@ class Mutation:
     
     @strawberry.mutation
     def remove_asset_by_hostname(self, info, hostname: str) -> bool:
+
         result = mongoDB.asset_collection.delete_one({"hostname": hostname})
 
         # Invalidate the cache in Redis
