@@ -20,4 +20,5 @@
 
 ___
 <h2>System Design</h2>
+
 ![Asset Management - System Design](https://github.com/AntonioTanco/FastAPI-GraphQL-Asset-Management/assets/43735570/11ac9794-b394-42c8-bb8a-9da8acc91b2b)
